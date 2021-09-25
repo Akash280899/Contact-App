@@ -1,3 +1,6 @@
+## Installed Packages
+  - [semantic-ui](https://semantic-ui.com/introduction/getting-started.html)
+
 ## Available Scripts
 
 In the project directory, you can run:
