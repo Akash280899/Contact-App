@@ -5,8 +5,11 @@
   - [json-server](https://www.npmjs.com/package/json-server) for fetching all the contact details from the api.
 
 ## More about this project
-   * Here
-   * hcsd
+   * It's the project to add/update/delete of contacts.
+   * The code written here is covered by all the react topics.
+   * It will restrict from adding the duplicated contacts.
+   * It will show all the contacts in the sorted order.
+   * Basic functionality check for adding the contact been done.
 
 ## Available Scripts
 
