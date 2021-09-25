@@ -11,7 +11,7 @@
    * It will show all the contacts in the sorted order.
    * Basic functionality check for adding the contact been done.
    
-   > Note: Under the server folder, install the json-server package. 
+   > Note: Under the server folder, do `npm init --yes` to create the package.json and after that install json-server package. 
 
 ## Available Scripts
 
