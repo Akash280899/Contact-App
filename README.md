@@ -4,6 +4,10 @@
   - [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
   - [json-server](https://www.npmjs.com/package/json-server) for fetching all the contact details from the api.
 
+## More about this project
+   * Here
+   * hcsd
+
 ## Available Scripts
 
 In the project directory, you can run:
