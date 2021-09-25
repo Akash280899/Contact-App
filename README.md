@@ -12,8 +12,11 @@
    * Basic functionality check for adding the contact been done.
    
    > Steps in server folder: 
+ 
         * do `npm init --yes` to create the package.json
+        
         * install json-server package.
+        
         * create a contact with id, name and email in db.json file.
         * add `"start": json-server -p 3006 -w db.json` under scripts in package.json
         * Runs the app by `npm start`
