@@ -1,27 +1,30 @@
-import Button from "@restart/ui/esm/Button";
-import { Modal } from "bootstrap";
 import React from "react";
-class AddContact extends React.Component {
-  state = {
-    name: "",
-    email: "",
-  };
 
-  add = (e) => {
-    e.preventDefault(); //not to refresh
+class EditContact extends React.Component {
+  constructor(props) {
+    super(props);
+    const { id, name, email } = props.location.state.contact;
+    this.state = {
+      id,
+      name,
+      email,
+    };
+  }
+
+  update = (e) => {
+    e.preventDefault();
     if (this.state.name === "" || this.state.email === "") {
       alert("All the fields are mandatory!");
-    } else {
-      this.props.addContactHandler(this.state);
-      this.setState({ name: "", email: "" });
-      this.props.history.push("/");
     }
+    this.props.updateContactHandler(this.state);
+    this.setState({ name: "", email: "" });
+    this.props.history.push("/");
   };
   render() {
     return (
       <div className="ui main" style={{ marginTop: "50px" }}>
-        <h2 className="contact-list-header">Add Contact</h2>
-        <form className="ui form" onSubmit={this.add}>
+        <h2 className="contact-list-header">Edit Contact</h2>
+        <form className="ui form" onSubmit={this.update}>
           <div className="field">
             <label>Name</label>
             <input
@@ -37,7 +40,7 @@ class AddContact extends React.Component {
           <div className="field">
             <label>Email</label>
             <input
-              type="email"
+              type="text"
               name="email"
               placeholder="email"
               value={this.state.email}
@@ -46,11 +49,11 @@ class AddContact extends React.Component {
               }}
             />
           </div>
-          <button className="ui button blue">Add</button>
+          <button className="ui button blue">Update </button>
         </form>
       </div>
     );
   }
 }
 
-export default AddContact;
+export default EditContact;

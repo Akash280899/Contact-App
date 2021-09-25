@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+}
+
+.search-field {
+  display: flex;
+}
+
+.contact-list-header {
+  text-align: center;
+}
+
+.item {
+  display: flex !important;
+}
+
+.edit-delete-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
