@@ -10,6 +10,8 @@
    * It will restrict from adding the duplicated contacts.
    * It will show all the contacts in the sorted order.
    * Basic functionality check for adding the contact been done.
+   
+   ## Note: Under the server folder, install the json-server package. 
 
 ## Available Scripts
 
