@@ -1,5 +1,8 @@
 ## Installed Packages
   - [semantic-ui](https://semantic-ui.com/introduction/getting-started.html)
+  - [axios](https://www.npmjs.com/package/axios)
+  - [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
+  - [json-server](https://www.npmjs.com/package/json-server) for fetching all the contact details from the api.
 
 ## Available Scripts
 
